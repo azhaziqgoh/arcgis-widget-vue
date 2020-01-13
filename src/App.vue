@@ -1,17 +1,17 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <h1>ARCGIS Widget using vue</h1>
+    <arcgis-map></arcgis-map>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import ArcGISMap from './components/Map.vue'
 
 export default {
   name: 'app',
   components: {
-    HelloWorld
+    'arcgis-map': ArcGISMap
   }
 }
 </script>
